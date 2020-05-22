@@ -6,7 +6,7 @@ include("stepA_mal.jl")
 #WebIO.webio_serve(page("/", req -> ui), rand(8000:9000)) # serve on a random port
 
 w = Window()# Open a new window
-title(w, "taylor")
+title(w, "mali")
 size(w, 1600, 800)
 centre(w)
 
